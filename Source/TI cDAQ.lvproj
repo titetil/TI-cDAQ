@@ -10,25 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Call By VIs" Type="Folder">
-			<Item Name="Events" Type="Folder">
-				<Item Name="Save Config User Event (by ref).vi" Type="VI" URL="../Events/Save Config User Event (by ref).vi"/>
-			</Item>
-			<Item Name="RT fifos Folder" Type="Folder">
-				<Item Name="AI RT FIFO (by ref).vi" Type="VI" URL="../RT fifos Folder/AI RT FIFO (by ref).vi"/>
-			</Item>
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="Configure DAQ (by ref).vi" Type="VI" URL="../SubVIs/Configure DAQ (by ref).vi"/>
-				<Item Name="Math Rolling Buffer (by ref).vi" Type="VI" URL="../SubVIs/Math Rolling Buffer (by ref).vi"/>
-				<Item Name="Pretrigger Buffer (by ref).vi" Type="VI" URL="../SubVIs/Pretrigger Buffer (by ref).vi"/>
-				<Item Name="Realtime Data (by ref).vi" Type="VI" URL="../SubVIs/Realtime Data (by ref).vi"/>
-				<Item Name="TCP Data Stream (by ref).vi" Type="VI" URL="../SubVIs/TCP Data Stream (by ref).vi"/>
-				<Item Name="TCP Data Stream PC (by ref).vi" Type="VI" URL="../SubVIs/TCP Data Stream PC (by ref).vi"/>
-				<Item Name="Trim Data (by ref).vi" Type="VI" URL="../SubVIs/Trim Data (by ref).vi"/>
-			</Item>
-		</Item>
 		<Item Name="Configurations" Type="Folder">
-			<Item Name="Sample.cfg" Type="Document" URL="../Configurations/Sample.cfg"/>
+			<Item Name="test.cfg" Type="Document" URL="../Configurations/test.cfg"/>
 		</Item>
 		<Item Name="Files for Install" Type="Folder" URL="../Files for Install">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -36,14 +19,8 @@
 		<Item Name="System" Type="Folder">
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
-		<Item Name="App Config.ini" Type="Document" URL="../App Config.ini"/>
-		<Item Name="Configuration.vi" Type="VI" URL="../Screens/Configuration.vi"/>
-		<Item Name="Find cDAQ.vi" Type="VI" URL="../SubVIs/Find cDAQ.vi"/>
-		<Item Name="LabVIEW.ini" Type="Document" URL="../LabVIEW.ini"/>
-		<Item Name="Registered DAQ Racks.ini" Type="Document" URL="../Registered DAQ Racks.ini"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
-		<Item Name="TI Icon.ico" Type="Document" URL="../TI Icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -264,11 +241,10 @@
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Add Current Sensors.vi" Type="VI" URL="../SubVIs/Add Current Sensors.vi"/>
 			<Item Name="Add Sensor.vi" Type="VI" URL="../Screens/Add Sensor.vi"/>
+			<Item Name="AI RT FIFO (by ref).vi" Type="VI" URL="../RT fifos Folder/AI RT FIFO (by ref).vi"/>
 			<Item Name="All Part Info.ctl" Type="VI" URL="../Type Defs and Controls/All Part Info.ctl"/>
 			<Item Name="Auto Save Trigger Data.vi" Type="VI" URL="../SubVIs/Auto Save Trigger Data.vi"/>
-			<Item Name="Build Config File From Part Config.vi" Type="VI" URL="../SubVIs/Build Config File From Part Config.vi"/>
 			<Item Name="Calibrate Circular Buffer.vi" Type="VI" URL="../SubVIs/Calibrate Circular Buffer.vi"/>
 			<Item Name="Calibrate Sensor.vi" Type="VI" URL="../Screens/Calibrate Sensor.vi"/>
 			<Item Name="Calibrate Transducer Menu.rtm" Type="Document" URL="../System/Calibrate Transducer Menu.rtm"/>
@@ -277,7 +253,7 @@
 			<Item Name="Channel Config.ctl" Type="VI" URL="../Type Defs and Controls/Channel Config.ctl"/>
 			<Item Name="Channel List.ctl" Type="VI" URL="../Type Defs and Controls/Channel List.ctl"/>
 			<Item Name="Coeffs Cluster Type Def.ctl" Type="VI" URL="../Type Defs and Controls/Coeffs Cluster Type Def.ctl"/>
-			<Item Name="Configuration Menu.rtm" Type="Document" URL="../System/Configuration Menu.rtm"/>
+			<Item Name="Configure DAQ (by ref).vi" Type="VI" URL="../SubVIs/Configure DAQ (by ref).vi"/>
 			<Item Name="Control Check File.vi" Type="VI" URL="../SubVIs/File IO/Control Check File.vi"/>
 			<Item Name="Control Read Char From File.vi" Type="VI" URL="../SubVIs/File IO/Control Read Char From File.vi"/>
 			<Item Name="Copy Files from Server.vi" Type="VI" URL="../SubVIs/Copy Files from Server.vi"/>
@@ -288,7 +264,6 @@
 			<Item Name="Extract Factors from INI Strings.vi" Type="VI" URL="../SubVIs/Extract Factors from INI Strings.vi"/>
 			<Item Name="Fill in Off Time.vi" Type="VI" URL="../SubVIs/Fill in Off Time.vi"/>
 			<Item Name="Find Non Part Signal Indexes.vi" Type="VI" URL="../SubVIs/Find Non Part Signal Indexes.vi"/>
-			<Item Name="Functional Global Control.ctl" Type="VI" URL="../Type Defs and Controls/Functional Global Control.ctl"/>
 			<Item Name="Generate New Data File.vi" Type="VI" URL="../SubVIs/Generate New Data File.vi"/>
 			<Item Name="Get Cal Coeffs.vi" Type="VI" URL="../SubVIs/Get Cal Coeffs.vi"/>
 			<Item Name="Get Next Event.vi" Type="VI" URL="../SubVIs/State Machine/Get Next Event.vi"/>
@@ -303,7 +278,6 @@
 			<Item Name="Initialize DAQ.vi" Type="VI" URL="../SubVIs/Initialize DAQ.vi"/>
 			<Item Name="Insert Multiple Events.vi" Type="VI" URL="../SubVIs/State Machine/Insert Multiple Events.vi"/>
 			<Item Name="Insert Single Event.vi" Type="VI" URL="../SubVIs/State Machine/Insert Single Event.vi"/>
-			<Item Name="Load Part Config Data.vi" Type="VI" URL="../SubVIs/Load Part Config Data.vi"/>
 			<Item Name="Log File Type.ctl" Type="VI" URL="../Type Defs and Controls/Log File Type.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -314,22 +288,19 @@
 			</Item>
 			<Item Name="Open Sensor Library.vi" Type="VI" URL="../SubVIs/File IO/Open Sensor Library.vi"/>
 			<Item Name="Organize Data With Analog Trigger.vi" Type="VI" URL="../SubVIs/Organize Data With Analog Trigger.vi"/>
-			<Item Name="Part Config.vi" Type="VI" URL="../Screens/Part Config.vi"/>
 			<Item Name="Part Info.ctl" Type="VI" URL="../Type Defs and Controls/Part Info.ctl"/>
 			<Item Name="Prep Data for Graph.vi" Type="VI" URL="../SubVIs/Prep Data for Graph.vi"/>
+			<Item Name="Pretrigger Buffer (by ref).vi" Type="VI" URL="../SubVIs/Pretrigger Buffer (by ref).vi"/>
 			<Item Name="Read App Config.vi" Type="VI" URL="../SubVIs/Read App Config.vi"/>
 			<Item Name="Read Characters From File with Error Out.vi" Type="VI" URL="../SubVIs/File IO/Read Characters From File with Error Out.vi"/>
 			<Item Name="Read Characters From File with Options.vi" Type="VI" URL="../SubVIs/File IO/Read Characters From File with Options.vi"/>
-			<Item Name="Read Part Limits From Configuration.vi" Type="VI" URL="../SubVIs/Read Part Limits From Configuration.vi"/>
-			<Item Name="Read Reg DAQ Racks.vi" Type="VI" URL="../SubVIs/Read Reg DAQ Racks.vi"/>
 			<Item Name="Read Sensor Scaling.vi" Type="VI" URL="../SubVIs/Read Sensor Scaling.vi"/>
 			<Item Name="Read Unit Config File.vi" Type="VI" URL="../SubVIs/Read Unit Config File.vi"/>
+			<Item Name="Realtime Data (by ref).vi" Type="VI" URL="../SubVIs/Realtime Data (by ref).vi"/>
 			<Item Name="Registered System.ctl" Type="VI" URL="../Type Defs and Controls/Registered System.ctl"/>
 			<Item Name="Remove Unused Channels.vi" Type="VI" URL="../SubVIs/Remove Unused Channels.vi"/>
 			<Item Name="RT FIFO Mode.ctl" Type="VI" URL="../Type Defs and Controls/RT FIFO Mode.ctl"/>
-			<Item Name="RTS format data file.vi" Type="VI" URL="../SubVIs/RTS format data file.vi"/>
 			<Item Name="Run Test Menu.rtm" Type="Document" URL="../System/Run Test Menu.rtm"/>
-			<Item Name="Save Config Event Type Def.ctl" Type="VI" URL="../Type Defs and Controls/Save Config Event Type Def.ctl"/>
 			<Item Name="Scale DAQ Data.vi" Type="VI" URL="../SubVIs/Scale DAQ Data.vi"/>
 			<Item Name="Select Analog Trigger Channel.vi" Type="VI" URL="../Screens/Select Analog Trigger Channel.vi"/>
 			<Item Name="Select Sensor.vi" Type="VI" URL="../Screens/Select Sensor.vi"/>
@@ -343,15 +314,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System Type.ctl" Type="VI" URL="../Type Defs and Controls/System Type.ctl"/>
-			<Item Name="TCP Data Stream Mode (PC).ctl" Type="VI" URL="../Type Defs and Controls/TCP Data Stream Mode (PC).ctl"/>
-			<Item Name="TCP Data Stream Mode.ctl" Type="VI" URL="../Type Defs and Controls/TCP Data Stream Mode.ctl"/>
-			<Item Name="TCP Data Stream.vi" Type="VI" URL="../SubVIs/TCP Data Stream.vi"/>
 			<Item Name="Test Limits.ctl" Type="VI" URL="../Type Defs and Controls/Test Limits.ctl"/>
-			<Item Name="Test Limits.vi" Type="VI" URL="../Screens/Test Limits.vi"/>
 			<Item Name="TimeDate String to Timestamp.vi" Type="VI" URL="../SubVIs/TimeDate String to Timestamp.vi"/>
 			<Item Name="Trigger count.vi" Type="VI" URL="../SubVIs/Trigger count.vi"/>
 			<Item Name="Trigger Stop Method.ctl" Type="VI" URL="../Type Defs and Controls/Trigger Stop Method.ctl"/>
-			<Item Name="Type Name Dialog.vi" Type="VI" URL="../Screens/Type Name Dialog.vi"/>
+			<Item Name="Trim Data (by ref).vi" Type="VI" URL="../SubVIs/Trim Data (by ref).vi"/>
 			<Item Name="Update Channel Display.vi" Type="VI" URL="../SubVIs/Update Channel Display.vi"/>
 			<Item Name="Verify Directory Exists and Create Tree if Necessary.vi" Type="VI" URL="../SubVIs/File IO/Verify Directory Exists and Create Tree if Necessary.vi"/>
 			<Item Name="Write Characters To File with Advisory Dialog Option and Error Out.vi" Type="VI" URL="../SubVIs/File IO/Write Characters To File with Advisory Dialog Option and Error Out.vi"/>
@@ -363,7 +330,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{615E7976-AA39-4FE6-8533-BD7F0774F697}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6886E132-EADE-4234-8BD2-5536FFEB0BC0}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/LabVIEW.ini</Property>
+				<Property Name="App_INI_itemID" Type="Ref"></Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EFDAACE2-1D98-4F86-B1A0-DA3274F65FF9}</Property>
@@ -376,7 +343,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{7E1C34F8-0227-4D41-B1C6-937E1678207D}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -392,44 +359,27 @@
 				<Property Name="Destination[3].path" Type="Path">../build</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{17C3B8EB-43E8-431D-AB2A-9BD2528574CA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{252D9840-C4AA-4328-8B09-FB8F54A6CDFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/App Config.ini</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Call By VIs</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Registered DAQ Racks.ini</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Files for Install/cal files</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Files for Install/cal files</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Configurations/Sample.cfg</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Configuration.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/System/Units.ini</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/System/Units.ini</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Nexteer Automotive</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TI cDAQ</Property>
 				<Property Name="TgtF_internalName" Type="Str">TI cDAQ</Property>
@@ -467,7 +417,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TI cDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.67</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.73</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Nexteer Automotive</Property>
@@ -481,34 +431,29 @@
 				<Property Name="Source[0].dest" Type="Str">{8E986782-D9F7-4CF1-982E-6BE415B92408}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{8E986782-D9F7-4CF1-982E-6BE415B92408}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">TI cDAQ.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">TI cDAQ</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">TI cDAQ</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{36F04C1D-1804-4FC5-BDDC-10C7411993CA}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">TI cDAQ</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/TI cDAQ</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{D319C2B5-A47B-46DF-902C-FD8C7A306966}</Property>
+				<Property Name="Source[1].dest" Type="Str">{9E35FCB9-8D5D-4134-B995-AE800556EB47}</Property>
 				<Property Name="Source[1].File[0].dest" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Source[1].File[0].name" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Source[1].File[0].tag" Type="Str">{36F04C1D-1804-4FC5-BDDC-10C7411993CA}</Property>
-				<Property Name="Source[1].name" Type="Str">Sample.cfg</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Configurations/Sample.cfg</Property>
+				<Property Name="Source[1].name" Type="Str">Units.ini</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/System/Units.ini</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{9E35FCB9-8D5D-4134-B995-AE800556EB47}</Property>
-				<Property Name="Source[2].name" Type="Str">Units.ini</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/System/Units.ini</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{D14083C7-7067-458E-90DB-6C57D2D419B8}</Property>
+				<Property Name="Source[2].dest" Type="Str">{D14083C7-7067-458E-90DB-6C57D2D419B8}</Property>
+				<Property Name="Source[2].File[0].dest" Type="Str">{D14083C7-7067-458E-90DB-6C57D2D419B8}</Property>
+				<Property Name="Source[2].File[0].name" Type="Str">Sensors.scl</Property>
+				<Property Name="Source[2].File[0].tag" Type="Ref">/My Computer/Files for Install/cal files/TI cDAQ/Sensors.scl</Property>
+				<Property Name="Source[2].FileCount" Type="Int">1</Property>
+				<Property Name="Source[2].name" Type="Str">TI cDAQ</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Files for Install/cal files/TI cDAQ</Property>
+				<Property Name="Source[2].type" Type="Str">Folder</Property>
 				<Property Name="Source[3].File[0].dest" Type="Str">{D14083C7-7067-458E-90DB-6C57D2D419B8}</Property>
 				<Property Name="Source[3].File[0].name" Type="Str">0001.cal</Property>
-				<Property Name="Source[3].File[0].tag" Type="Ref">/My Computer/Files for Install/cal files/TI cDAQ/0001.cal</Property>
-				<Property Name="Source[3].FileCount" Type="Int">1</Property>
-				<Property Name="Source[3].name" Type="Str">TI cDAQ</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/Files for Install/cal files/TI cDAQ</Property>
-				<Property Name="Source[3].type" Type="Str">Folder</Property>
+				<Property Name="Source[3].File[0].tag" Type="Ref"></Property>
 				<Property Name="Source[5].dest" Type="Str">{BD2423E0-10BC-477D-AFB9-C12AC7FA3FBD}</Property>
 				<Property Name="Source[5].File[0].dest" Type="Str">{BD2423E0-10BC-477D-AFB9-C12AC7FA3FBD}</Property>
 				<Property Name="Source[5].File[0].name" Type="Str">DAQ Rack (Single).vi</Property>
@@ -517,7 +462,7 @@
 				<Property Name="Source[5].name" Type="Str">Source Distribution</Property>
 				<Property Name="Source[5].tag" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">SDIST</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
