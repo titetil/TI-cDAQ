@@ -19,6 +19,7 @@
 		<Item Name="System" Type="Folder">
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
+		<Item Name="Create Deformation Sensor File.vi" Type="VI" URL="../Debug/Create Deformation Sensor File.vi"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -297,7 +298,6 @@
 			<Item Name="Read Sensor Scaling.vi" Type="VI" URL="../SubVIs/Read Sensor Scaling.vi"/>
 			<Item Name="Read Unit Config File.vi" Type="VI" URL="../SubVIs/Read Unit Config File.vi"/>
 			<Item Name="Realtime Data (by ref).vi" Type="VI" URL="../SubVIs/Realtime Data (by ref).vi"/>
-			<Item Name="Registered System.ctl" Type="VI" URL="../Type Defs and Controls/Registered System.ctl"/>
 			<Item Name="Remove Unused Channels.vi" Type="VI" URL="../SubVIs/Remove Unused Channels.vi"/>
 			<Item Name="RT FIFO Mode.ctl" Type="VI" URL="../Type Defs and Controls/RT FIFO Mode.ctl"/>
 			<Item Name="Run Test Menu.rtm" Type="Document" URL="../System/Run Test Menu.rtm"/>
@@ -330,7 +330,6 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{615E7976-AA39-4FE6-8533-BD7F0774F697}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6886E132-EADE-4234-8BD2-5536FFEB0BC0}</Property>
-				<Property Name="App_INI_itemID" Type="Ref"></Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EFDAACE2-1D98-4F86-B1A0-DA3274F65FF9}</Property>
@@ -344,6 +343,7 @@
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -359,27 +359,20 @@
 				<Property Name="Destination[3].path" Type="Path">../build</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{252D9840-C4AA-4328-8B09-FB8F54A6CDFD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF3902B4-22D1-4015-A5E4-8429F1AA34FB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Files for Install/cal files</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Files for Install/cal files</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/System/Units.ini</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/System/Units.ini</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Nexteer Automotive</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TI cDAQ</Property>
 				<Property Name="TgtF_internalName" Type="Str">TI cDAQ</Property>
@@ -417,7 +410,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TI cDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.73</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.75</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Nexteer Automotive</Property>
