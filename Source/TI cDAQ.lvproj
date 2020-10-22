@@ -19,7 +19,6 @@
 		<Item Name="System" Type="Folder">
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
-		<Item Name="Create Deformation Sensor File.vi" Type="VI" URL="../Debug/Create Deformation Sensor File.vi"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -239,7 +238,12 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="Add Sensor.vi" Type="VI" URL="../Screens/Add Sensor.vi"/>
@@ -343,7 +347,7 @@
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -359,7 +363,7 @@
 				<Property Name="Destination[3].path" Type="Path">../build</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EF3902B4-22D1-4015-A5E4-8429F1AA34FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AEA635D0-DAF5-41A5-AFC6-C3CB0B8A858F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
@@ -410,7 +414,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TI cDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.75</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.78</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Nexteer Automotive</Property>
