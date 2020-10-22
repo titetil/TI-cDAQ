@@ -288,9 +288,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Open Sensor Library.vi" Type="VI" URL="../SubVIs/File IO/Open Sensor Library.vi"/>
 			<Item Name="Organize Data With Analog Trigger.vi" Type="VI" URL="../SubVIs/Organize Data With Analog Trigger.vi"/>
 			<Item Name="Part Info.ctl" Type="VI" URL="../Type Defs and Controls/Part Info.ctl"/>
@@ -414,7 +411,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TI cDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.78</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.80</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Nexteer Automotive</Property>
