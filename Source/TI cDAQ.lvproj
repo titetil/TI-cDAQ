@@ -19,7 +19,10 @@
 		<Item Name="System" Type="Folder">
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
+		<Item Name="App Config.ctl" Type="VI" URL="../Type Defs and Controls/App Config.ctl"/>
 		<Item Name="Connect to cDAQ.vi" Type="VI" URL="../SubVIs/Connect to cDAQ.vi"/>
+		<Item Name="Merge Config Files.vi" Type="VI" URL="../SubVIs/Merge Config Files.vi"/>
+		<Item Name="Synch with Server.vi" Type="VI" URL="../SubVIs/Synch with Server.vi"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -318,6 +321,7 @@
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
@@ -353,10 +357,11 @@
 			<Item Name="Channel List.ctl" Type="VI" URL="../Type Defs and Controls/Channel List.ctl"/>
 			<Item Name="Check if Number" Type="VI" URL="../SubVIs/Check if Number"/>
 			<Item Name="Coeffs Cluster Type Def.ctl" Type="VI" URL="../Type Defs and Controls/Coeffs Cluster Type Def.ctl"/>
+			<Item Name="Config Save As.vi" Type="VI" URL="../Screens/Config Save As.vi"/>
+			<Item Name="Config Select.vi" Type="VI" URL="../Screens/Config Select.vi"/>
 			<Item Name="Configure DAQ (by ref).vi" Type="VI" URL="../SubVIs/Configure DAQ (by ref).vi"/>
 			<Item Name="Control Check File.vi" Type="VI" URL="../SubVIs/File IO/Control Check File.vi"/>
 			<Item Name="Control Read Char From File.vi" Type="VI" URL="../SubVIs/File IO/Control Read Char From File.vi"/>
-			<Item Name="Copy Files from Server.vi" Type="VI" URL="../SubVIs/Copy Files from Server.vi"/>
 			<Item Name="DAQ Settings.ctl" Type="VI" URL="../Type Defs and Controls/DAQ Settings.ctl"/>
 			<Item Name="Delete Sensor.vi" Type="VI" URL="../Screens/Delete Sensor.vi"/>
 			<Item Name="Determine if Executable.vi" Type="VI" URL="../SubVIs/File IO/Determine if Executable.vi"/>
@@ -390,8 +395,6 @@
 			<Item Name="Part Info.ctl" Type="VI" URL="../Type Defs and Controls/Part Info.ctl"/>
 			<Item Name="Prep Data for Graph.vi" Type="VI" URL="../SubVIs/Prep Data for Graph.vi"/>
 			<Item Name="Pretrigger Buffer (by ref).vi" Type="VI" URL="../SubVIs/Pretrigger Buffer (by ref).vi"/>
-			<Item Name="Read App Config.vi" Type="VI" URL="../SubVIs/Read App Config.vi"/>
-			<Item Name="Read Characters From File with Error Out.vi" Type="VI" URL="../SubVIs/File IO/Read Characters From File with Error Out.vi"/>
 			<Item Name="Read Characters From File with Options.vi" Type="VI" URL="../SubVIs/File IO/Read Characters From File with Options.vi"/>
 			<Item Name="Read Sensor Scaling.vi" Type="VI" URL="../SubVIs/Read Sensor Scaling.vi"/>
 			<Item Name="Read Unit Config File.vi" Type="VI" URL="../SubVIs/Read Unit Config File.vi"/>
