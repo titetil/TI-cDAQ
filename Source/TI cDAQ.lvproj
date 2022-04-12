@@ -447,6 +447,7 @@
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -460,7 +461,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8853E9D8-3B34-4E93-9DD5-5B1B821BCCEE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D1ECF72F-FACB-4190-8DFD-846CE4136B0A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
@@ -503,12 +504,12 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="INST_author" Type="Str">Nexteer Automotive</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/gtetil/Documents/Projects/Installers/TI cDAQ/TI cDAQ Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/jrobinson/Documents/Projects/Installers/TI cDAQ/TI cDAQ Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">TI cDAQ Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TI cDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.85</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.86</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Nexteer Automotive</Property>
