@@ -16,6 +16,7 @@
 		<Item Name="System" Type="Folder">
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
+		<Item Name="Make Data Point.vi" Type="VI" URL="../SubVIs/Make Data Point.vi"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -369,8 +370,10 @@
 			<Item Name="Get Next Event.vi" Type="VI" URL="../SubVIs/State Machine/Get Next Event.vi"/>
 			<Item Name="Get Paths.vi" Type="VI" URL="../SubVIs/Get Paths.vi"/>
 			<Item Name="Get Version from EXE.vi" Type="VI" URL="../SubVIs/Get Version from EXE.vi"/>
+			<Item Name="Graph Channels (Big).ctl" Type="VI" URL="../Type Defs and Controls/Graph Channels (Big).ctl"/>
 			<Item Name="Graph Channels.ctl" Type="VI" URL="../Type Defs and Controls/Graph Channels.ctl"/>
 			<Item Name="Graph Settings Type Def.ctl" Type="VI" URL="../Type Defs and Controls/Graph Settings Type Def.ctl"/>
+			<Item Name="Graphs Numerics (Big).ctl" Type="VI" URL="../Type Defs and Controls/Graphs Numerics (Big).ctl"/>
 			<Item Name="Graphs Numerics.ctl" Type="VI" URL="../Type Defs and Controls/Graphs Numerics.ctl"/>
 			<Item Name="Header.ctl" Type="VI" URL="../Type Defs and Controls/Header.ctl"/>
 			<Item Name="Host Check File.vi" Type="VI" URL="../SubVIs/File IO/Host Check File.vi"/>
@@ -446,8 +449,7 @@
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">4</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -461,7 +463,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D1ECF72F-FACB-4190-8DFD-846CE4136B0A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{010F9F00-63F7-4F79-B210-77E3F4FDE0F0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
