@@ -511,9 +511,9 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TI cDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.88</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.89</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Nexteer Automotive</Property>
 				<Property Name="MSI_distID" Type="Str">{5ED22CCF-3291-46D5-B0EA-1D2590148EAF}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
