@@ -17,6 +17,7 @@
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
 		<Item Name="Make Data Point.vi" Type="VI" URL="../SubVIs/Make Data Point.vi"/>
+		<Item Name="sensor read write.vi" Type="VI" URL="../../../../../../Downloads/Support/sensor read write.vi"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -317,6 +318,7 @@
 			<Item Name="Log File Type.ctl" Type="VI" URL="../Type Defs and Controls/Log File Type.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Merge Config Files.vi" Type="VI" URL="../SubVIs/Merge Config Files.vi"/>
+			<Item Name="Merge Sensors.vi" Type="VI" URL="../SubVIs/Merge Sensors.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -382,6 +384,7 @@
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -395,7 +398,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9AF8A9E9-A649-4F15-8F9D-B94E50D6837E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{83691EBB-EA93-45CA-A1E8-E850ACEC3108}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>

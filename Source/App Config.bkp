@@ -1,7 +1,7 @@
 [App Config]
 Support Dir (Local) = "/C/Users/garre/OneDrive - Tetil Engineering Inc/Documents/Projects/TI-cDAQ/Source/Support"
-Support Dir (Remote) = "/C/Users/garre/Downloads/Support"
+Support Dir (Remote) = "/S/GLOBALTEST/Software/TI cDAQ/Support"
 Config Sub Dir = "Configurations"
-Last Config (Std) = "temporary"
+Last Config (Std) = "KM Vehicle.std"
 Last Config (Def) = "test.def"
 Last Config (8TC) = "KM Vehicle.8TC"
