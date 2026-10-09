@@ -17,6 +17,7 @@
 			<Item Name="Units.ini" Type="Document" URL="../System/Units.ini"/>
 		</Item>
 		<Item Name="Make Data Point.vi" Type="VI" URL="../SubVIs/Make Data Point.vi"/>
+		<Item Name="Sensor Config Version.vi" Type="VI" URL="../SubVIs/Sensor Config Version.vi"/>
 		<Item Name="sensor read write.vi" Type="VI" URL="../../../../../../Downloads/Support/sensor read write.vi"/>
 		<Item Name="System Button.xctl" Type="XControl" URL="../Type Defs and Controls/System Button/System Button.xctl"/>
 		<Item Name="TI cDAQ.vi" Type="VI" URL="../TI cDAQ.vi"/>
@@ -280,6 +281,7 @@
 			<Item Name="Calibrate Transducer Menu.rtm" Type="Document" URL="../System/Calibrate Transducer Menu.rtm"/>
 			<Item Name="Ch Type.ctl" Type="VI" URL="../Type Defs and Controls/Ch Type.ctl"/>
 			<Item Name="Channel Config Screen.ctl" Type="VI" URL="../Type Defs and Controls/Channel Config Screen.ctl"/>
+			<Item Name="Channel Config v1.ctl" Type="VI" URL="../Type Defs and Controls/Channel Config v1.ctl"/>
 			<Item Name="Channel Config.ctl" Type="VI" URL="../Type Defs and Controls/Channel Config.ctl"/>
 			<Item Name="Channel List.ctl" Type="VI" URL="../Type Defs and Controls/Channel List.ctl"/>
 			<Item Name="Check if Number" Type="VI" URL="../SubVIs/Check if Number"/>
@@ -338,6 +340,7 @@
 			<Item Name="Select Analog Trigger Channel.vi" Type="VI" URL="../Screens/Select Analog Trigger Channel.vi"/>
 			<Item Name="Select Sensor.vi" Type="VI" URL="../Screens/Select Sensor.vi"/>
 			<Item Name="Select Units.vi" Type="VI" URL="../Screens/Select Units.vi"/>
+			<Item Name="Sensor Config v1.ctl" Type="VI" URL="../Type Defs and Controls/Sensor Config v1.ctl"/>
 			<Item Name="Sensor Config.ctl" Type="VI" URL="../Type Defs and Controls/Sensor Config.ctl"/>
 			<Item Name="Sensor List Cluster.ctl" Type="VI" URL="../Type Defs and Controls/Sensor List Cluster.ctl"/>
 			<Item Name="Sensor.ctl" Type="VI" URL="../Type Defs and Controls/Sensor.ctl"/>
@@ -384,7 +387,7 @@
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">TI cDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -398,7 +401,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BE619AA6-E280-43CF-8674-1212A7174809}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F095933D-7391-47CF-9B00-E0B636BF9CD0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TI cDAQ.vi</Property>
